@@ -27,3 +27,20 @@ EndlessRunner
 `mingw32-make init`  
 `mingw32-make`  
 
+
+EndlessRunner/
+├── code/                # 源代码文件 (.cpp)
+│   ├── main.cpp
+│   ├── game.cpp
+│   ├── BitMap.cpp
+│   └── ...（将来可以扩展 Player.cpp, Obstacle.cpp 等）
+├── head/                # 头文件 (.h)
+│   ├── game.h
+│   ├── BitMap.h
+│   └── ...
+├── img/                 # BMP图片资源
+│   ├── car.bmp
+│   ├── xxx.bmp
+│   └── ...
+├── Makefile
+└── README.md            # 可选：说明文件
